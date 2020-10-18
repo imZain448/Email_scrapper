@@ -1,4 +1,4 @@
-#Email Scrapper
+<H1>Email Scrapper</H1>
 ---
 this a utility script to scrap emails from a given email 
 
@@ -27,7 +27,7 @@ df = data.loc[data['Subject'].str.contains('Thank you for applying')]
 ```
 in replace the `'Thank you for applying'` string with your desired string
 
-###<b>*IMPORTANT*</b>
+<H4><b><i>IMPORTANT</i></b></H4>
 - In order to let this script read the mails of the user you need to allow less secure apps from your google accounts settings. which I don't recoomend.
 but if this script is used inside an app which satisfies the security criteria of google than the above could be avoided
 
